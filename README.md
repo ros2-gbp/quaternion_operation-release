@@ -1,3 +1,26 @@
+## quaternion_operation (melodic) - 0.0.3-1
+
+The packages in the `quaternion_operation` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic quaternion_operation` on `Sun, 26 May 2019 01:09:30 -0000`
+
+The `quaternion_operation` package was released.
+
+Version of package(s) in repository `quaternion_operation`:
+
+- upstream repository: https://github.com/OUXT-Polaris/quaternion_operation.git
+- release repository: https://github.com/OUXT-Polaris/quaternion_operation-release.git
+- rosdistro version: `0.0.1-2`
+- old version: `0.0.1-2`
+- new version: `0.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## quaternion_operation (kinetic) - 0.0.3-1
 
 The packages in the `quaternion_operation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic quaternion_operation` on `Sun, 26 May 2019 01:05:34 -0000`
