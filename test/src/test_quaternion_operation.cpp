@@ -224,6 +224,80 @@ TEST(TestSuite, testCase8)
 }
 
 /**
+ * @brief test for * operator
+ * 
+ */
+TEST(TestSuite, testCase9)
+{
+    geometry_msgs::Quaternion q1,q2;
+    q1.x = std::sqrt((double)0.8);
+    q1.y = 0;
+    q1.z = 0;
+    q1.w = std::sqrt((double)0.2);
+    q2.x = std::sqrt((double)0.4);
+    q2.y = std::sqrt((double)0.3);
+    q2.z = 0;
+    q2.w = std::sqrt((double)0.3);
+    EXPECT_EQ(quaternion_operation::equals(q1*q2,q2*q1),false);
+}
+
+/**
+ * @brief test for euler to quat convertion
+ * 
+ */
+TEST(TestSuite, testCase10)
+{
+    geometry_msgs::Quaternion q;
+    geometry_msgs::Vector3 euler;
+    euler.x = 0;
+    euler.y = 0;
+    euler.z = 0;
+    q = quaternion_operation::convertEulerAngleToQuaternion(euler);
+    EXPECT_FLOAT_EQ(q.x,0);
+    EXPECT_FLOAT_EQ(q.y,0);
+    EXPECT_FLOAT_EQ(q.z,0);
+    EXPECT_FLOAT_EQ(q.w,1);
+}
+
+/**
+ * @brief test for quat to euler convertion
+ * 
+ */
+TEST(TestSuite, testCase11)
+{
+    geometry_msgs::Quaternion q;
+    geometry_msgs::Vector3 euler;
+    q.x = 0;
+    q.y = 0;
+    q.z = 0;
+    q.w = 1;
+    euler = quaternion_operation::convertQuaternionToEulerAngle(q);
+    EXPECT_FLOAT_EQ(euler.x,0);
+    EXPECT_FLOAT_EQ(euler.y,0);
+    EXPECT_FLOAT_EQ(euler.z,0);
+}
+
+/**
+ * @brief Test for quat/euler conversion
+ * 
+ */
+TEST(TestSuite, testCase12)
+{
+    geometry_msgs::Quaternion q,q1;
+    geometry_msgs::Vector3 euler;
+    q.x = 0;
+    q.y = std::sqrt(0.5);
+    q.z = 0;
+    q.w = std::sqrt(0.5);
+    euler = quaternion_operation::convertQuaternionToEulerAngle(q);
+    q1 = quaternion_operation::convertEulerAngleToQuaternion(euler);
+    EXPECT_FLOAT_EQ(q.x,q1.x);
+    EXPECT_FLOAT_EQ(q.y,q1.y);
+    EXPECT_FLOAT_EQ(q.z,q1.z);
+    EXPECT_FLOAT_EQ(q.w,q1.w);
+}
+
+/**
  * @brief Run all the tests that were declared with TEST()
  * 
  * @param argc 
