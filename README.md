@@ -1,3 +1,26 @@
+## quaternion_operation (foxy) - 0.0.4-1
+
+The packages in the `quaternion_operation` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy quaternion_operation` on `Sun, 10 Jan 2021 06:26:03 -0000`
+
+The `quaternion_operation` package was released.
+
+Version of package(s) in repository `quaternion_operation`:
+
+- upstream repository: https://github.com/OUXT-Polaris/quaternion_operation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## quaternion_operation (kinetic) - 0.0.3-2
 
 The packages in the `quaternion_operation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic quaternion_operation` on `Wed, 18 Sep 2019 01:06:36 -0000`
