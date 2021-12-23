@@ -1,3 +1,26 @@
+## quaternion_operation (rolling) - 0.0.7-1
+
+The packages in the `quaternion_operation` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --ros-distro rolling quaternion_operation` on `Thu, 23 Dec 2021 14:03:09 -0000`
+
+The `quaternion_operation` package was released.
+
+Version of package(s) in repository `quaternion_operation`:
+
+- upstream repository: https://github.com/OUXT-Polaris/quaternion_operation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## quaternion_operation (galactic) - 0.0.7-1
 
 The packages in the `quaternion_operation` repository were released into the `galactic` distro by running `/usr/bin/bloom-release --track galactic --ros-distro galactic quaternion_operation` on `Thu, 23 Dec 2021 14:00:44 -0000`
