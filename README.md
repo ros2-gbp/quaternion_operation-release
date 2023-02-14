@@ -1,3 +1,26 @@
+## quaternion_operation (humble) - 0.0.12-2
+
+The packages in the `quaternion_operation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --ros-distro humble quaternion_operation` on `Tue, 14 Feb 2023 17:43:33 -0000`
+
+The `quaternion_operation` package was released.
+
+Version of package(s) in repository `quaternion_operation`:
+
+- upstream repository: https://github.com/OUXT-Polaris/quaternion_operation.git
+- release repository: https://github.com/ros2-gbp/quaternion_operation-release.git
+- rosdistro version: `0.0.11-1`
+- old version: `0.0.12-1`
+- new version: `0.0.12-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## quaternion_operation (humble) - 0.0.12-1
 
 The packages in the `quaternion_operation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --ros-distro humble quaternion_operation` on `Tue, 14 Feb 2023 17:38:47 -0000`
