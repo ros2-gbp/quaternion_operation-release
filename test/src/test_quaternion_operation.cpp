@@ -29,8 +29,6 @@
 // headers in this package
 #include <quaternion_operation/quaternion_operation.h>
 
-#include <quaternion_operation/quaternion_operation.hpp>
-
 /**
  * @brief test for + operator
  *
