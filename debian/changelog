@@ -1,0 +1,134 @@
+ros-rolling-quaternion-operation (0.0.7-4noble) noble; urgency=high
+
+  * Merge pull request #43 <https://github.com/OUXT-Polaris/quaternion_operation/issues/43> from OUXT-Polaris/fix/pthread
+    update CMakeLists.txt
+  * update CMakeLists.txt
+  * Setup workflow (#42 <https://github.com/OUXT-Polaris/quaternion_operation/issues/42>)
+  * Setup workflow (#41 <https://github.com/OUXT-Polaris/quaternion_operation/issues/41>)
+  * Setup workflow (#40 <https://github.com/OUXT-Polaris/quaternion_operation/issues/40>)
+  * Setup workflow (#39 <https://github.com/OUXT-Polaris/quaternion_operation/issues/39>)
+  * Setup workflow (#38 <https://github.com/OUXT-Polaris/quaternion_operation/issues/38>)
+  * Setup workflow (#37 <https://github.com/OUXT-Polaris/quaternion_operation/issues/37>)
+  * Setup workflow (#36 <https://github.com/OUXT-Polaris/quaternion_operation/issues/36>)
+  * Setup workflow (#35 <https://github.com/OUXT-Polaris/quaternion_operation/issues/35>)
+  * Setup workflow (#34 <https://github.com/OUXT-Polaris/quaternion_operation/issues/34>)
+  * Setup build test workflow (#33 <https://github.com/OUXT-Polaris/quaternion_operation/issues/33>)
+  * Setup build test workflow (#32 <https://github.com/OUXT-Polaris/quaternion_operation/issues/32>)
+  * Merge pull request #31 <https://github.com/OUXT-Polaris/quaternion_operation/issues/31> from OUXT-Polaris/workflow/build_test
+    [Bot] Update workflow
+  * Setup build test workflow
+  * Merge pull request #30 <https://github.com/OUXT-Polaris/quaternion_operation/issues/30> from OUXT-Polaris/workflow/build_test
+    [Bot] Update workflow
+  * update repos file
+  * apply reformat
+  * remove unused test
+  * add ouxt_lint_common package
+  * Setup build test workflow
+  * Merge pull request #28 <https://github.com/OUXT-Polaris/quaternion_operation/issues/28> from OUXT-Polaris/workflow/scenario_test
+    [Bot] Update workflow
+  * Setup scenario test workflow
+  * Merge pull request #27 <https://github.com/OUXT-Polaris/quaternion_operation/issues/27> from OUXT-Polaris/feature/add_flag
+    add pthread flag
+  * add pthread flag
+  * Contributors: Masaya Kataoka, MasayaKataoka, wam-v-tan
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Thu, 23 Dec 2021 00:00:00 -0000
+
+ros-rolling-quaternion-operation (0.0.6-4noble) noble; urgency=high
+
+  * add gtest to the depends
+  * Merge pull request #26 <https://github.com/OUXT-Polaris/quaternion_operation/issues/26> from OUXT-Polaris/workflow/galactic
+    update CI workflow for galactic
+  * update .github/workflows/ROS2-Galactic.yaml
+  * Contributors: Masaya Kataoka, robotx_buildfarm
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Mon, 12 Jul 2021 00:00:00 -0000
+
+ros-rolling-quaternion-operation (0.0.5-4noble) noble; urgency=high
+
+  * Merge pull request #25 <https://github.com/OUXT-Polaris/quaternion_operation/issues/25> from OUXT-Polaris/feature/add_compile_flag
+    add pthread flag
+  * remove dashing workflow
+  * add find_package to the depends
+  * fix workflow
+  * add pthread flag
+  * Merge pull request #23 <https://github.com/OUXT-Polaris/quaternion_operation/issues/23> from OUXT-Polaris/feature/export_depends
+    update depends
+  * Merge pull request #24 <https://github.com/OUXT-Polaris/quaternion_operation/issues/24> from OUXT-Polaris/workflow/dashing
+    Workflow/dashing
+  * Merge branch 'ros2' into workflow/dashing
+  * Merge branch 'ros2' into feature/export_depends
+  * update depends
+  * Merge pull request #22 <https://github.com/OUXT-Polaris/quaternion_operation/issues/22> from OUXT-Polaris/feature/add_license
+    add license files
+  * add license files
+  * Merge pull request #21 <https://github.com/OUXT-Polaris/quaternion_operation/issues/21> from OUXT-Polaris/fix/cpplint
+    enable pass cpplint
+  * add copyright
+  * enable pass cpplint
+  * Merge pull request #20 <https://github.com/OUXT-Polaris/quaternion_operation/issues/20> from OUXT-Polaris/feature/remove_old_ci
+    remove old CI
+  * remove old CI
+  * Merge pull request #19 <https://github.com/OUXT-Polaris/quaternion_operation/issues/19> from OUXT-Polaris/workflow/foxy
+    update CI workflow for foxy
+  * update .github/workflows/ROS2-Dashing.yaml
+  * update dependency.repos
+  * update .github/workflows/ROS2-Foxy.yaml
+  * update dependency.repos
+  * Contributors: Masaya Kataoka, robotx_buildfarm
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Sat, 12 Jun 2021 00:00:00 -0000
+
+ros-rolling-quaternion-operation (0.0.3-4noble) noble; urgency=high
+
+
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Sun, 26 May 2019 00:00:00 -0000
+
+ros-rolling-quaternion-operation (0.0.2-4noble) noble; urgency=high
+
+  * Merge pull request #8 <https://github.com/OUXT-Polaris/quaternion_operation/issues/8> from OUXT-Polaris/develop
+    Develop
+  * Merge branch 'master' into develop
+  * Merge pull request #7 <https://github.com/OUXT-Polaris/quaternion_operation/issues/7> from OUXT-Polaris/feature/shared_object
+    Feature/shared object
+  * fix typo
+  * add quaternion_operation .so
+  * Merge pull request #5 <https://github.com/OUXT-Polaris/quaternion_operation/issues/5> from OUXT-Polaris/feature/euler_quat_converion
+    Feature/euler quat converion
+  * add test case
+  * add quaternion_operation::convertEulerAngleToQuaternion function
+  * Update issue templates
+  * Merge branch 'master' of https://github.com/OUXT-Polaris/quaternion_operation
+  * fix roataion function
+  * Merge pull request #3 <https://github.com/OUXT-Polaris/quaternion_operation/issues/3> from sloretz/patch-1
+    Fixed typo in license name
+  * Fixed typo in license name
+  * update CHANGELOG
+  * fix operator *
+  * Contributors: Masaya Kataoka, MasayaKataoka, Shane Loretz
+  * fix operator *
+  * Contributors: Masaya Kataoka
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Sun, 26 May 2019 00:00:00 -0000
+
+ros-rolling-quaternion-operation (0.0.1-4noble) noble; urgency=high
+
+  * add mainpage
+  * add documents for All functions
+  * update .gitignore
+  * add rosdoc
+  * add getRotation test
+  * add getRoataion function
+  * add slerp function
+  * add eigen to the depends
+  * add test
+  * update package.xml
+  * update .travis.yml
+  * add test
+  * initial commit
+  * Contributors: Masaya Kataoka, MasayaKataoka
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Sun, 21 Apr 2019 00:00:00 -0000
+
+
